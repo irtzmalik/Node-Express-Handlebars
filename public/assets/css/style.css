@@ -1,1 +1,44 @@
 /* add your css here */
+
+body {
+    font-family: "Times New Roman", Times, serif;;
+    
+   background-color: orange;
+}
+.banner_image{
+
+text-align: center;
+
+}
+h1 {
+    
+    text-align:center;
+}
+
+
+
+li {
+    font-size: 20px;
+}
+
+
+#add {
+    clear: both;
+    margin-left: 10%;
+}
+
+.btn-primary.add-btn {
+	background-color: green;
+	border-color: #000;
+}
+
+.btn-primary.clear-btn {
+	background-color: red;
+	border-color: #000;
+}
+
+.btn-warning.dev-btn {
+	background-color:maroon;
+	border-color: #000;
+}
+
