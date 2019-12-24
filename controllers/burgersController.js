@@ -3,7 +3,7 @@
 
 var express = require('express');
 
-var router = express.Router();
+var router = express
 
 var burger = require("../models/burgers.js");
 
@@ -30,6 +30,12 @@ router.put("/:id", function (req, res) {
 
     burger.updateOne(id, function () {
         res.redirect("/");
+    });
+});
+
+router.post("/delete", function (req, res) {
+    burger.deleteALL(function (data) {
+       res.redirect("/");
     });
 });
 
